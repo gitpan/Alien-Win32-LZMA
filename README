@@ -10,6 +10,9 @@ DESCRIPTION
     memory-only compression and decompression provided by the current
     generation of modules is not sufficient.
 
+    The version of lzma.exe provided by this module is taken from the LZMA
+    SDK 4.65 at <http://downloads.sourceforge.net/sevenzip/lzma465.tar.bz2>.
+
 FUNCTIONS
   lzma_exe
     The "lzma_exe" function returns the location of the installed lzma.exe
@@ -62,4 +65,6 @@ COPYRIGHT
 
     The full text of the license can be found in the LICENSE file included
     with this module.
+
+    The LZMA SDK is written and placed in the public domain by Igor Pavlov.
 
